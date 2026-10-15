@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP</title>
+    <link rel = "stylesheet" href = "CEP.css">
+</head>
+<body> 
+    <h1>Descubra o seu CEP</h1>
+    <img src = "Pin.png">
+    <br>
+    <input type="number" id="CEP" placeholder="Ex: 00000-000"> 
+    <button onclick="bora()">Buscar</button>
+
+
+    <br>
+    <br>
+    <fieldset><legend><h3>Endereços</h3></legend>
+    <table border="1">
+      <tr>
+        <td class="highlight-cell">Rua:</td><td id="logradouro"></td>
+      </tr>
+      <tr>
+        <td class="highlight-cell">Bairro:</td><td id="Bairro"></td>
+      </tr>
+      <tr>
+        <td class="highlight-cell">Localidade:</td><td id="Cidade"></td>
+      </tr>
+      <tr>
+        <td class="highlight-cell">Estado:</td><td id="Estado"></td>
+      </tr>
+    </table>
+    </fieldset>
+
+    <script src="CEP.JS"></script> 
+
+
+</body>
+</html>
